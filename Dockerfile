@@ -1,5 +1,5 @@
 # Pull the image
-FROM docker.io/golang:1.21.0-alpine
+FROM docker.io/golang:1.21.6-alpine
 # Copy the code
 COPY src /codebase/src
 RUN ls /codebase/src/main.go
